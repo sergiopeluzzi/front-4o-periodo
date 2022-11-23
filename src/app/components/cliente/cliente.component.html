@@ -1,0 +1,12 @@
+<div>
+  <h1>{{ titulo }}</h1>
+  <!--<h3>Idade: {{ pessoa.idade }}</h3>
+  <h3>Endereço: {{ pessoa.endereco.logradouro }}</h3>
+  <h3>Numero: {{ pessoa.endereco.numero }}</h3> -->
+
+  <app-table [nome]="pessoa.nome" [idade]="pessoa.idade"></app-table>
+
+  <app-table [nome]="'Sergio'" [idade]="31"></app-table>
+
+  <app-table [nome]="clientes[2].nome" [idade]="clientes[2].idade"></app-table>
+</div>

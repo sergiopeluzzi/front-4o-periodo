@@ -1,0 +1,22 @@
+tr {
+  padding: 10px;
+}
+
+td {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+th {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
